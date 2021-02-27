@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  min-height: 4vh;
+  width: auto;
+  background-color: #000000cc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 15px;
+}
+
+nav ul li a {
+  color: #f5f5f7;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Nav Bar */
+section.hero a {
+  color: #0066cc;
+}
+
+section.hero h5 {
+  opacity: 0.4;
+}
+
+section.hero h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.covid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0071e3;
+  height: 4vh;
+  width: auto;
+  font-size: 15px;
+  font-weight: 400;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.head2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.8;
+  height: 5vh;
+  width: auto;
+}
+/* Header */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+    url("https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* Learn more and Buy*/
+.float-container {
+  padding: 10px;
+}
+
+.float-child {
+  float: left;
+  padding: 30px;
+  margin-left: 5px;
+}
+h1 {
+  font-weight: bolder;
+  font-weight: 700;
+}
+/* Hero 2 */
+.hero2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+    url("https://images.pexels.com/photos/674884/pexels-photo-674884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.hero2 h5 {
+  color: silver;
+  opacity: 0.4;
+}
+
+.float-container2 {
+  padding: 10px;
+}
+
+.float-child2 {
+  float: left;
+  padding: 10px;
+}
+
+div.float-child2 a {
+  color: #0071e3;
+}
+/* Hero 3 */
+
+.hero3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
+    url("https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.herotext {
+  margin-top: 55px;
+}
+
+section.hero2 a {
+  color: #0066cc;
+}
+
+section.hero3 a {
+  color: #0066cc;
+}
+/* End Text */
+.footnote {
+  opacity: 0.5;
+  font-size: 12px;
+  width: 50vw;
+  min-height: 39vh;
+  margin: 35px 22% auto auto;
+}
+/* Footnote */
+
+a.footerlinks {
+  margin-left: 2%;
+  margin-right: auto;
+  text-decoration: underline;
+  color: black;
+  opacity: 1;
+}
